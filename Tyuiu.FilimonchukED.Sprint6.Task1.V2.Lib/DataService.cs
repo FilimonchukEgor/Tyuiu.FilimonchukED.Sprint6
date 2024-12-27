@@ -10,7 +10,7 @@ namespace Tyuiu.FilimonchukED.Sprint6.Task1.V2.Lib
             array = new double[len];
             double y;
             int count = 0;
-            for (int i = startValue; i < stopValue; i++) 
+            for (int i = startValue; i <= stopValue; i++) 
             {
                 if (Math.Sin(i) != -2)
                 {
