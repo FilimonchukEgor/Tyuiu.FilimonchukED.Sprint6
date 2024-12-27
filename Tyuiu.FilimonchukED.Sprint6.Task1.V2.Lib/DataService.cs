@@ -12,9 +12,13 @@ namespace Tyuiu.FilimonchukED.Sprint6.Task1.V2.Lib
             int count = 0;
             for (int i = startValue; i < stopValue; i++) 
             {
-                y = ((5 * i + 2.5) / (Math.Sin(i) + 2)) + 2 * i + 2;
-                array[count] = Math.Round(y,2);
-                count++;
+                if (Math.Sin(i) != -2)
+                {
+                    y = ((5 * i + 2.5) / (Math.Sin(i) + 2)) + 2 * i + 2;
+                    array[count] = Math.Round(y, 2);
+                    count++;
+                }
+                else y = 0;
             }
             return array;
         }
