@@ -38,5 +38,4 @@ namespace Tyuiu.FilimonchukED.Sprint6.Review.V14.Lib
             return product;
         }
     }
-        
 }
